@@ -277,6 +277,10 @@ ul {
 
 /* for large screen md (768px) */
 @media (min-width: 768px) {
+  #site-main .recent-work-area .images-flex{
+    margin: 0px 0px !important;
+  
+  }
   .container {
     max-width: 768px;
   }
@@ -502,5 +506,17 @@ ul {
 
 
 /* ------------------- Recent work area Style ------------------------ */
+#site-main .recent-work-area .images-flex{
+  margin: 0px 20px ;
 
+}
+#site-main .recent-work-area .images-flex .flex-items{
+  width: 100%;
+  margin-bottom: 50px;
+  width: 360px;
+}
+
+#site-main .recent-work-area .images-flex .flex-items img{
+  border-radius: 10px;
+}
 /* ------------------- /Recent work area Style ------------------------ */
