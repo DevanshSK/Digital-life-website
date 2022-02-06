@@ -22,3 +22,9 @@ window.onload = function digital_fn() {
     fitWidth: true,
   });
 };
+
+
+// Rellax JS code
+var rellax = new Rellax('.rellax', {
+  center : true
+})

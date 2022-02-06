@@ -272,6 +272,10 @@ body{
 
 /* for large screen sm (640px) */
 @media (min-width: 640px) {
+  #site-main .banner-area{
+    margin: initial auto !important;
+    color: var(--text-white) !important;
+  }
   .container {
     max-width: 640px;
   }
