@@ -223,9 +223,6 @@ ul {
   font-weight: bold;
 }
 
-.btn-shodow {
-  box-shadow: var(--box-shadow);
-}
 
 .btn-primary:hover {
   background: var(--bg-gradient-indigo);
@@ -262,6 +259,12 @@ ul {
 
 .btn-shadow{
   box-shadow: var(--box-shadow);
+}
+
+body{
+  width: 100%;
+  background: url(./assets/backgroundpng.png) no-repeat;
+  background-size: cover;
 }
 /* ------------------- /Global Classes ------------------------ */
 
@@ -319,6 +322,8 @@ ul {
 
   #nav {
     flex-direction: row !important;
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
   }
 
   .collapse {
