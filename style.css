@@ -260,6 +260,9 @@ ul {
   width: 50%;
 }
 
+.btn-shadow{
+  box-shadow: var(--box-shadow);
+}
 /* ------------------- /Global Classes ------------------------ */
 
 /* ------------------- Media Query ------------------------ */
@@ -520,3 +523,19 @@ ul {
   border-radius: 10px;
 }
 /* ------------------- /Recent work area Style ------------------------ */
+
+
+/* ------------------- Article area Style ------------------------ */
+#site-main .article-area .grid{
+  column-gap: 5em;
+  
+}
+#site-main .article-area .card article{
+  border-radius: 10px;
+}
+/* ------------------- /Article area Style ------------------------ */
+
+
+/* ------------------- Ready area Style ------------------------ */
+
+/* ------------------- /Ready area Style ------------------------ */
