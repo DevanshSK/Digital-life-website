@@ -276,6 +276,11 @@ ul {
   .sm-text-xl {
     font-size: 3em;
   }
+
+  .sm-px-10{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
 }
 
 /* for large screen md (768px) */
@@ -537,5 +542,13 @@ ul {
 
 
 /* ------------------- Ready area Style ------------------------ */
+#site-main .ready-area .flex{
+  justify-content: space-around;
+  align-items: center;
+}
+
+#site-main .ready-area .flex p{
+  padding-top: 1em;
+}
 
 /* ------------------- /Ready area Style ------------------------ */
